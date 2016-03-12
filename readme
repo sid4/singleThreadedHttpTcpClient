@@ -1,3 +1,5 @@
+This is a single threaded HTTP TCP client with option to initiate persistent or non-persistent HTTP connection with server
+
 For compiling:
 make -f make1
 
