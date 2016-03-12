@@ -1,0 +1,11 @@
+For compiling:
+make -f make1
+
+
+For running:
+./client <hostname> <portno> <p>/<np> <filename>
+
+Case when argument passed is p, viz. persistent, then the filenames are read from the file named "filename" argument on local system (same folder) and each file is fetched from the server. Sample file fetchFiles.txt is available
+
+Case when argument passed is np, viz. non-persistent, then the specified "filename" is fetched from the server
+
